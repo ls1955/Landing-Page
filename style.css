@@ -151,3 +151,13 @@ body{
     height: 3rem;
     margin-right: 1rem;
 }
+
+/* footer */
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
