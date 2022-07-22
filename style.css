@@ -13,6 +13,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* header section */
 .header{
     background-color: #1f2937;
@@ -67,11 +71,13 @@ body{
     color: #f9faf8;
     font-size: 3rem;
     font-weight: bolder;
+    font-family: water-galon;
     line-height: 0.8;
 }
 
 .hero p{
-    font-size: 18px;
+    font-family: water-galon;
+    font-size: 1rem;
     padding: 1.5rem 0;
 }
 
@@ -115,8 +121,9 @@ body{
 }
 
 .containerInfo .image{
-    border: 5px solid #3882f6;
-    min-height: 150px;
+    height: 150px;
+    max-width: 150px;
+    object-fit: fill;
 }
 
 .containerInfo p{
