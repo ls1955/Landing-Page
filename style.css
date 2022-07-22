@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* header section */
 .header{
     background-color: #1f2937;
@@ -120,4 +124,30 @@
     color: #1f2937;
     font-weight: bolder;
     align-self: flex-end;
+}
+
+/* signUp section */
+.signUpSection{
+    padding: 2rem 15rem;
+    margin: 1rem;
+}
+
+.signUpSection .container{
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.signUpSection button{
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 0.5rem;
+    color: #f9faf8;
+    min-width: 5rem;
+    height: 3rem;
+    margin-right: 1rem;
 }
