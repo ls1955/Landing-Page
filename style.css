@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* header section */
 .header{
     background-color: #1f2937;
     color: #e5e7eb;
@@ -61,9 +62,38 @@
 }
 
 .hero .image{
-    background-color: rgb(40,40,40);
+    background-color: rgb(50,50,50);
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Information section */
+.main{
+    padding: 0 15rem;
+    text-align: center;
+}
+
+.main h1{
+    margin: 1.5rem 0;
+}
+
+.containerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    margin: 1rem;
+}
+
+.containerInfo .image{
+    border: 5px solid #3882f6;
+    min-height: 150px;
+}
+
+.containerInfo p{
+    margin: 1rem 0;
 }
